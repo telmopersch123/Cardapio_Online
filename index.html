@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Cárdapio Online</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Cárdapio Digital</h1>
+  </header>
+  <main>
+    <div id="menuSalgados">
+      <div class="Titulos">
+        <h2>Salgados</h2>
+        <img class="ImagensTITULOS" src="Imagens/salgado.jpg" alt="Salgados">
+      </div>
+    
+      <div class="Elementos elementos-salgados">
+        <div class="Produtos">
+          <div class="DivSeparar">
+            <div id="divApresentarComida">
+              <p class="TituloApresentar">Pizza Margherita</p>
+              <img class="ImagensProdutos" src="Imagens/pizza.jpg" alt="Pizza Margherita">
+            </div>
+            <div class="Preco-Input">
+              <p class="preço">R$55,00</p>
+              <label class="round-checkbox">
+                <input type="checkbox" class="CheckedBox" id="pizza1" name="item" value="Pizza" data-price="55.00">
+                <span class="checkmark"></span>
+                  <p class='TextoSelecionar'>Selecionar</p>
+                 
+              </label>
+                <div class="quantity-input">
+                  <label for="pizza1-quantity" class="quantity-label">Quantidade:</label>
+                  <input type="number"  class="quantity-Number" id="pizza1-quantity" name="pizza1-quantity" min="1" value="1">
+                </div>
+            </div>
+          </div>
+          <p class="descricao">Pizza Margherita: Uma deliciosa combinação de molho de tomate fresco, mozzarella
+            derretida, folhas de manjericão e um toque de azeite de oliva, servida em uma crocante massa artesanal.</p>
+        </div>
+        <div class="Produtos">
+          <div class="DivSeparar">
+            <div id="divApresentarComida">
+              <p class="TituloApresentar">Hambúrguer Clássico</p>
+              <img class="ImagensProdutos" src="Imagens/hamburgues.jpeg" alt="Hambúrguer Clássico">
+            </div>
+            <div class="Preco-Input">
+              <p class="preço">R$30,00</p>
+              <label class="round-checkbox">
+                <input type="checkbox" class="CheckedBox" id="hamburguer1" name="item" value="Hamburguer"
+                  data-price="30.00">
+                <span class="checkmark"></span>
+                    <p class='TextoSelecionar'>Selecionar</p>
+              </label>
+                <div class="quantity-input">
+                  <label for="hamburguer1-quantity" class="quantity-label">Quantidade:</label>
+                  <input type="number"  class="quantity-Number" id="hamburguer1-quantity" name="hamburguer1-quantity" min="1" value="1">
+                </div>
+            </div>
+          </div>
+          <p class="descricao">Um suculento hambúrguer de carne bovina grelhada, servido em um pão macio com alface
+            crocante, tomate fresco, cebola roxa e picles. Completo com uma camada de queijo cheddar derretido e molho
+            especial, o hambúrguer clássico é a perfeita combinação de sabores tradicionais e simplicidade deliciosa.
+          </p>
+        </div>
+        <div class="Produtos">
+          <div class="DivSeparar">
+            <div id="divApresentarComida">
+              <p class="TituloApresentar">Centro de Salgado</p>
+              <img class="ImagensProdutos" src="Imagens/centrosalgado.jpeg" alt="Centro de Salgado">
+            </div>
+            <div class="Preco-Input">
+              <p class="preço">R$42,00</p>
+               <label class="round-checkbox">
+                 <input type="checkbox" class="CheckedBox" id="salgado1" name="item" value="Salgado" data-price="42.00">
+                 <span class="checkmark"></span>
+                  <p class='TextoSelecionar'>Selecionar</p>
+               </label>
+                <div class="quantity-input">
+                  <label for="salgado1-quantity" class="quantity-label">Quantidade:</label>
+                  <input type="number"  class="quantity-Number" id="salgado1-quantity" name="salgado1-quantity" min="1" value="1">
+                </div>
+            </div>
+          </div>
+          <p class="descricao">Um irresistível centro de salgado, recheado com uma mistura deliciosa de carnes
+            temperadas, queijos e especiarias, envolto em uma massa crocante e dourada. Ideal como aperitivo ou lanche,
+            oferece uma explosão de sabor e textura a cada mordida.</p>
+        </div>
+      </div>
+    </div>
+    <div id="menuSobremesas">
+      <div class="Titulos">
+        <h2>Sobremesas</h2>
+        <img class="ImagensTITULOS" src="Imagens/doce.png" alt="Sobremesas">
+      </div>
+    
+      <div class="Elementos elementos-sobremesas">
+        <div class="Produtos">
+          <div class="DivSeparar">
+            <div id="divApresentarComida">
+              <p class="TituloApresentar">Brownie de Chocolate</p>
+              <img class="ImagensProdutos" src="Imagens/brownie.jpg" alt="Brownie de Chocolate">
+            </div>
+            <div class="Preco-Input">
+              <p class="preço">R$20,00</p>
+              <label class="round-checkbox">
+                <input type="checkbox" class="CheckedBox" id="brownie1" name="item" value="Brownie" data-price="20.00">
+                <span class="checkmark"></span>
+                    <p class='TextoSelecionar'>Selecionar</p>
+              </label>
+                <div class="quantity-input">
+                  <label for="brownie1-quantity" class="quantity-label">Quantidade:</label>
+                  <input type="number" class="quantity-Number" id="brownie1-quantity" name="Brownie1-quantity" min="1" value="1">
+                </div>
+            </div>
+          </div>
+          <p class="descricao">Brownie de Chocolate: Uma deliciosa sobremesa feita com chocolate amargo e pedaços de
+            chocolate derretido, proporcionando uma textura densa e um sabor intenso. Ideal para os amantes de
+            chocolate!</p>
+        </div>
+        <div class="Produtos">
+          <div class="DivSeparar">
+            <div id="divApresentarComida">
+              <p class="TituloApresentar">Cheesecake </p>
+              <img class="ImagensProdutos" src="Imagens/cheesecake.jpg" alt="Cheesecake de Morango">
+            </div>
+            <div class="Preco-Input">
+              <p class="preço">R$25,00</p>
+              <label class="round-checkbox">
+                <input type="checkbox" class="CheckedBox" id="cheesecake1" name="item" value="Cheesecake"
+                  data-price="25.00">
+                <span class="checkmark"></span>
+                    <p class='TextoSelecionar'>Selecionar</p>
+              </label>
+                <div class="quantity-input">
+                  <label for="cheesecake1-quantity" class="quantity-label">Quantidade:</label>
+                  <input type="number" class="quantity-Number" id="cheesecake1-quantity" name="Cheesecake1-quantity" min="1" value="1">
+                </div>
+            </div>
+          </div>
+          <p class="descricao">Cheesecake de Morango: Uma combinação suave e cremosa de queijo e morango fresco, sobre
+            uma crocante base de biscoito. Uma sobremesa leve e deliciosa para finalizar a refeição.</p>
+        </div>
+      </div>
+    </div>
+    <div id="menuBebidas">
+      <div class="Titulos">
+        <h2>Bebidas</h2>
+        <img class="ImagensTITULOS" src="Imagens/bebida.jpg" alt="Bebidas">
+      </div>
+   
+      <div class="Elementos elementos-bebidas">
+        <div class="Produtos">
+          <div class="DivSeparar">
+            <div id="divApresentarComida">
+              <p class="TituloApresentar">Refrigerante</p>
+              <img class="ImagensProdutos" src="Imagens/refrigerante.jpg" alt="Refrigerante">
+            </div>
+            <div class="Preco-Input">
+              <p class="preço">R$5,00</p>
+              <label class="round-checkbox">
+                <input type="checkbox" class="CheckedBox" id="refrigerante1" name="item" value="Refrigerante"
+                  data-price="5.00">
+                <span class="checkmark"></span>
+                    <p class='TextoSelecionar'>Selecionar</p>
+              </label>
+                  <div class="quantity-input">
+                    <label for="refrigerante1-quantity" class="quantity-label">Quantidade:</label>
+                    <input type="number" class="quantity-Number" id="refrigerante1-quantity" name="refrigerante1-quantity" min="1" value="1">
+                  </div>
+            </div>
+          </div>
+          <p class="descricao">Refrigerante: Uma bebida refrescante e gaseificada, ideal para acompanhar sua refeição.
+            Disponível em vários sabores para atender a todos os gostos.</p>
+        </div>
+        <div class="Produtos">
+          <div class="DivSeparar">
+            <div id="divApresentarComida">
+              <p class="TituloApresentar">Suco Natural</p>
+              <img class="ImagensProdutos" src="Imagens/suco.jpg" alt="Suco Natural">
+            </div>
+            <div class="Preco-Input">
+              <p class="preço">R$7,00</p>
+              <label class="round-checkbox">
+                <input type="checkbox" class="CheckedBox" id="suco1" name="item" value="Suco1" data-price="7.00">
+                <span class="checkmark"></span>
+                    <p class='TextoSelecionar'>Selecionar</p>
+              </label>
+                <div class="quantity-input">
+                  <label for="suco1-quantity" class="quantity-label">Quantidade:</label>
+                  <input type="number"  class="quantity-Number" id="suco1-quantity" name="suco1-quantity" min="1" value="1">
+                </div>
+            </div>
+          </div>
+          <p class="descricao">Suco Natural: Feito com frutas frescas e sem adição de conservantes, oferece um sabor
+            autêntico e nutritivo. Uma opção saudável e deliciosa para acompanhar sua refeição.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div id="CarrinhoId" class="Carrinho">
+    <div class="tituloCarrinho"> 
+      <i class="fas fa-shopping-cart"></i>
+     <h2>Carrinho De Compras</h2>
+     </div>
+  <div class="Especificacoes">
+    <span>Produto</span>
+      <span>Quantidade</span>
+        <span>Preço</span>
+  </div>
+      <div id="cartItems">
+      </div>
+  <div class="ValorCarrinho" id="TotItens">
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <button id="showModalBtn" class="buttonFechar botoes">Fechar Pedido</button>
+
+  <div id="modal-Confirmar" class="modal">
+    <div class="modal-content">
+ 
+      <div> 
+       <h2 class="FimPedidoTitle">Fechando Pedido</h2>
+       <span title="Voltar ao Cárdapio" id="closeBtn" class="close-btn">&#8592;</span>
+     </div>
+
+        <div class="ItensFinais" id="cartItems">
+        </div>
+
+          <div class="ValorFinal" id="TotItens">
+                  </div>
+        <div id="NenhumItem">Nenhum Item Selecionado no momento</div>
+          <div class="divBotoesFinalizar">
+            <button id="BotaoConfirmar" class="botaoConfirmar botoes">Confirmar Pedido</button>
+            <button  id="BotaoCancelar"  class="botaoCancelar botoes">Cancelar Pedido</button>
+          </div>
+    </div>
+  </div>
+
+  <div id="modal-Pagamento" class="modalPAGAMENTO">
+    <h2 class="PagamentoTitle">Método de Pagamento</h2>
+    <div>
+      <form id="paymentForm">
+          <fieldset class="FieldSet">
+              <legend>Escolha o método de pagamento:</legend>
+                <label>
+                  <input id="creditCardOption" type="radio" name="paymentMethod" value="cartao" required>
+                  Cartão (débito ou crédito)
+                </label>
+                  <br>
+                  
+                  <label >
+                    <input  id="pixOption"  type="radio" name="paymentMethod" value="pix" required>
+                    Pix
+                  </label>
+                  <br>
+        <div id="cartao-info" style="display: none;">
+            <h3>Informações do Cartão</h3>
+              <label  class="inputsCartao" for="cardNumber">Número do Cartão:</label>
+                <input  class="inputsCartao" type="text" id="cardNumber" name="cardNumber" maxlength="20" placeholder="1234 5678 9012 3456" oninput="this.value = this.value.replace(/[^0-9\/]/g, '')">
+                <br>
+                <br>
+                <br>
+                <label  class="inputsCartao" for="cardExpiry">Data de Validade:</label>
+                  <input  class="inputsCartao" type="text" id="cardExpiry" name="cardExpiry" placeholder="MM/AA" maxlength="5"  oninput="this.value = this.value.replace(/[^0-9\/]/g, '')">
+                      <br>
+                      <br>
+                      <br>
+                  <label  class="inputsCartao" for="cardCVC">Código de Segurança:</label>
+                  <input  class="inputsCartao" type="text" id="cardCVC" name="cardCVC" placeholder="123" maxlength="5" oninput="this.value = this.value.replace(/[^0-9\/]/g, '')">
+        </div>
+        <div id="pix-info" style="display: none;">
+          <h3>Informações do Pix</h3>
+        <p style="text-align: center;">Gr Code Gerado!</p>
+      <img class="grCode" src="Imagens/GrCode.jpeg"/>
+      <br>
+      <div style="width: 100%;">
+       <p class="textoPix">Caso queria utilizar uma chave de Pix, Chave Gerada: &nbsp;
+
+        8f8e9e0c1b2d3a4f5
+        g6h7i8j9k0l1m
+        2n3o4p5q6r7s8t9u0v
+        1w2x3y4
+        z5a6b7c8d</p>
+        <p>Você têm até 30 minutos para efetuar o pagamento</p>
+        </div>
+        </div>
+      
+      </fieldset>
+      <fieldset>
+          <legend>Nome do Cliente e Endereço para Entrega</legend>
+          <br>
+          <label for="customerName">Nome do Cliente:</label>
+            <input type="text" id="customerName" name="customerName" placeholder="Seu Nome" required>
+              <br>
+              <br>
+              <div style="display: flex;">
+              <label for="deliveryAddress">Endereço Para Entrega:</label>
+              <textarea id="deliveryAddress" name="deliveryAddress" placeholder="Seu Endereço" rows="4" cols="50" maxlength="100"
+              required></textarea>
+              </div>
+              <br>
+        </fieldset>
+        <div class="divBotoesFinais">
+        <button id="BotoesFinais" class="BotaoFechar" type="submit">Fechar Pagamento</button>
+        <button id="BotoesFinais" class="BotaoDesistir" type="button">Desistir do Pagamento</button>
+        </div>
+    </form>
+    </div>
+  </div>
+<script src="script.js">
+</script>
+</body>
+</html>
